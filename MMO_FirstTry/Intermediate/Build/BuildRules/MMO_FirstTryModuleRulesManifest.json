@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\TaTteRo\\Documents\\Unreal Projects\\UE4_MMO_Game\\MMO_FirstTry\\Source\\MMO_FirstTry\\MMO_FirstTry.Build.cs",
+		"C:\\Users\\TaTteRo\\Documents\\Unreal Projects\\UE4_MMO_Game\\MMO_FirstTry\\Source\\MMO_FirstTry.Target.cs",
+		"C:\\Users\\TaTteRo\\Documents\\Unreal Projects\\UE4_MMO_Game\\MMO_FirstTry\\Source\\MMO_FirstTryEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
