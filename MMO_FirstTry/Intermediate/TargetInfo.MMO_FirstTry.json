@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MMO_FirstTry",
+			"Path": "C:\\Users\\TaTteRo\\Documents\\Unreal Projects\\UE4_MMO_Game\\MMO_FirstTry\\Source\\MMO_FirstTry.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MMO_FirstTryEditor",
+			"Path": "C:\\Users\\TaTteRo\\Documents\\Unreal Projects\\UE4_MMO_Game\\MMO_FirstTry\\Source\\MMO_FirstTryEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
