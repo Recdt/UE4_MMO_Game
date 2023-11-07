@@ -49,6 +49,10 @@ void EmptyLinkFunctionForGeneratedCodeMMO_FirstTryCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookUpRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BlinkDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BlinkDistance;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -104,11 +108,19 @@ void EmptyLinkFunctionForGeneratedCodeMMO_FirstTryCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BaseLookUpRate = { "BaseLookUpRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMMO_FirstTryCharacter, BaseLookUpRate), METADATA_PARAMS(Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BaseLookUpRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BaseLookUpRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BlinkDistance_MetaData[] = {
+		{ "Category", "MMO_FirstTryCharacter" },
+		{ "ModuleRelativePath", "MMO_FirstTryCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BlinkDistance = { "BlinkDistance", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMMO_FirstTryCharacter, BlinkDistance), METADATA_PARAMS(Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BlinkDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BlinkDistance_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_FollowCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BaseLookUpRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::NewProp_BlinkDistance,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMMO_FirstTryCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMMO_FirstTryCharacter>::IsAbstract,
@@ -137,7 +149,7 @@ void EmptyLinkFunctionForGeneratedCodeMMO_FirstTryCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMMO_FirstTryCharacter, 1909381093);
+	IMPLEMENT_CLASS(AMMO_FirstTryCharacter, 4089325683);
 	template<> MMO_FIRSTTRY_API UClass* StaticClass<AMMO_FirstTryCharacter>()
 	{
 		return AMMO_FirstTryCharacter::StaticClass();

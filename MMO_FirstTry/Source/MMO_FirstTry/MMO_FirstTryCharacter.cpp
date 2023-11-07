@@ -56,6 +56,7 @@ void AMMO_FirstTryCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Blink", IE_Released, this, &AMMO_FirstTryCharacter::Blink);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMMO_FirstTryCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMMO_FirstTryCharacter::MoveRight);
@@ -137,4 +138,23 @@ void AMMO_FirstTryCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void AMMO_FirstTryCharacter::Blink()
+{
+	FVector TemporaryCharacterForwardVector = GetActorForwardVector();
+	TemporaryCharacterForwardVector.X *= BlinkDistance;
+	TemporaryCharacterForwardVector.Y *= BlinkDistance;
+	
+	const FVector BlinkResult = TemporaryCharacterForwardVector + GetActorLocation();
+	
+	FCollisionQueryParams QueryParameters;
+	QueryParameters.AddIgnoredActor(this);
+	QueryParameters.bTraceComplex = false;
+
+	FHitResult BlinkHitResult;
+	GetWorld()->LineTraceSingleByChannel(BlinkHitResult, GetActorLocation(), BlinkResult,ECC_Visibility,QueryParameters,FCollisionResponseParams());
+	
+	if(BlinkHitResult.bBlockingHit) SetActorLocation(BlinkHitResult.Location);
+	else SetActorLocation(BlinkResult);
 }
