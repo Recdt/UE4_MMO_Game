@@ -1,0 +1,3 @@
+C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\Definitions.MMO_FirstTry.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

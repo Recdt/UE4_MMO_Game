@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MMO_FirstTry.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\MMO_FirstTryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\MMO_FirstTry.cpp.obj"
+"C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\MMO_FirstTryCharacter.cpp.obj"
+"C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\MMO_FirstTryGameMode.cpp.obj"
+"C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\MMO_FirstTry.init.gen.cpp.obj"
+"C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\MMO_FirstTryCharacter.gen.cpp.obj"
+"C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\MMO_FirstTryGameMode.gen.cpp.obj"
+"C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\Default.rc2.res"
+/OUT:"C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\UE4Editor-MMO_FirstTry.lib"

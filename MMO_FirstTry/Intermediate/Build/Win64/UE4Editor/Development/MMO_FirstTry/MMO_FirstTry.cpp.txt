@@ -1,0 +1,2 @@
+C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Intermediate\Build\Win64\UE4Editor\Development\MMO_FirstTry\Definitions.MMO_FirstTry.h
+C:\Users\TaTteRo\Documents\Unreal Projects\UE4_MMO_Game\MMO_FirstTry\Source\MMO_FirstTry\MMO_FirstTry.h
